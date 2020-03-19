@@ -1,0 +1,344 @@
+	
+
+
+/*NAV BAR*/
+nav ul {
+	background-color: blue;
+	overflow: hidden;
+	padding: 30px;
+
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 40px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+}
+
+/*NAV BAR*/
+
+
+
+
+/*ALL BUTTONS IN GENERAL*/ 
+button {
+	border:2px solid black;
+	border-radius: 20px;
+	padding: 5px 10px;
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+/*ALL BUTTONS IN GENERAL*/ 
+
+
+/*CONTACT PAGE*/
+/*CONTACT PAGE BUTTONS */ 
+
+.testbuttons {
+	display: inline-flex;
+}
+
+.redbutton {
+	border: 2px solid red;
+	
+}
+
+.redbutton:hover {
+	background-color: red;
+}
+
+.bluebutton {
+	border: 2px solid blue;
+
+}
+
+.bluebutton:hover {
+	background-color: blue;
+}
+/*CONTACT PAGE BUTTONS */ 
+
+form input{
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+form select{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.inline{
+	display: inline;
+}
+
+form label{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*CONTACT PAGE*/
+
+
+
+
+
+/*ON AIR PAGE */ 
+
+/*BUTTON ANIMATION*/
+button.shake-top {
+	-webkit-animation: shake-top 2s linear infinite both;
+	        animation: shake-top 2s linear infinite both;
+}
+
+@-webkit-keyframes shake-top {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes shake-top {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+
+
+/*END BUTTON ANIMATIONS*/
+
+.yellowbutton {
+	border: 2px solid yellow;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.yellowbutton:hover {
+	background-color: yellow;
+	color: black;
+	
+} 
+
+.listen {
+	display: inline;
+
+}
+
+.wasu{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.wasu:hover {
+	background-color: yellow
+}
+/*ON AIR PAGE */
+		
+
+/*HEADERS*/
+		h1 {
+			color: blue;
+			line-height: .2;
+			font-family: 'Roboto', sans-serif;
+			text-shadow: 1px 3px 2px grey;
+			font-size: 40px;
+			text-transform: uppercase;
+			margin-top: 75px;
+		}
+		/*H1 ANIMATION*/
+		h1.tracking-in-contract-bck{
+			-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+		}
+		@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+		/*H1 ANIMATION*/
+
+		h2 {
+			color: blue;
+			font-size: 30px;
+			line-height: .7;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		h3 {
+			line-height: .7;
+			font-family: 'Roboto', sans-serif;
+		}
+	/*
+		.firstpageheader{
+			margin-top: 75px;
+			font-size: 40px;
+		}
+	*/
+
+/*HEADERS*/
+
+/*PARAGRAPHS*/
+	
+	p, li, td, th {
+		font-family: 'Source Sans Pro', sans-serif;	
+	}
+
+/*PARAGRAPHS*/
+
+
+/* RESUME PAGE*/	
+/* use commas to separate multiple selectors and apply to all */
+		table, th, td {
+			border:1px solid black; 
+		}
+		table {
+			background-color: yellow;
+			padding: 1px;
+		}
+		td, th {
+			background-color: white
+			
+		}
+
+		#skillsexplainedpadding{
+			margin-top:40px;
+			display: block;
+		}
+
+		.specialskills{
+			line-height: .3;
+		}
+		/* the pound sign signals an ID*/
+		#coreheader{
+			color: blue;
+		}
+
+
+
+/* RESUME PAGE*/
+
+
+		
+
+/* the period signals a class*/
+	
+
+		/*
+	html {
+		background-image: url(https://images.unsplash.com/photo-1529567186287-3e17bdefa342?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}
+*/
+	
